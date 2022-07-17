@@ -1,0 +1,17 @@
+
+#cabecera{
+    background-color: aquamarine;
+    margin-bottom: 20px;
+    padding: 50px;
+    text-align: center;
+}
+
+#buscador{
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    /* padding: 20px*/
+    color: black;
+    border-radius: 30px;
+    
+}

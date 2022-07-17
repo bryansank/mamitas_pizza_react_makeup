@@ -1,0 +1,28 @@
+#footer{
+    background-color: bisque;
+    padding: 20px;
+    margin-top: 40px;
+    color: black;
+    text-align: center;
+}
+.redes{
+    margin-top: 20px;
+}
+
+.redes img{
+    width: 40px;
+    height: 40px;
+}
+
+.redes a{
+    display: inline-block;
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+#footer p{
+    font-size: 20px;
+    color: black;
+    margin: 4px auto;
+}
