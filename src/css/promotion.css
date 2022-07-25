@@ -1,0 +1,51 @@
+#promotion_section{
+    padding: 1rem;
+    
+    display: block;
+    background-color: white;
+    border: 1px solid black;
+
+    max-width: 30rem;
+    min-width: 17.2rem;
+
+    max-height: 28.1rem;
+    min-height: 23.7rem;
+
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+#promotion_section h3{
+    text-align: center;
+}
+
+.promoCard{
+    border-radius: 0;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+#promotion_section .card figure .pizzaImage.promoImg{
+    border: 0;
+    border-radius: 2px;
+}
+
+.title_pizza.promotitle{
+    color: brown;
+    text-align: center;
+}
+
+#promotion_section .card .pizzaPrice{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+#promotion_section .card .pizzaPrice .currency{
+    color: #30c300;
+    font-size: 1.2rem;
+    font-weight: bold;
+}

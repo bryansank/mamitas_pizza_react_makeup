@@ -7,11 +7,13 @@
 
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./src/css/header.css" />
-    <link rel="stylesheet" href="./src/css/carta.css" />
-    <link rel="stylesheet" href="./src/css/footer.css" />
     <link rel="stylesheet" href="./src/css/search.css" />
+    <link rel="stylesheet" href="./src/css/carta.css" />
+    <link rel="stylesheet" href="./src/css/promotion.css" />
     <link rel="stylesheet" href="./src/css/hours.css" />
     <link rel="stylesheet" href="./src/css/ws_contact.css" />
+    <link rel="stylesheet" href="./src/css/footer.css" />
+    
 
     <title>Mamita Pizza</title>
 
@@ -30,14 +32,15 @@
 
     <main>
 
-        <!-- <h3>Tenemos para ti la mejor pizza italiana. Nada de masa precocida, directamente horneada y con los ingredientes de mejor calidad.</h3> -->
+        <section id="search_section">
+            <input placeholder="¿Que Quieres?" value="" type="search" name="searchPizza" id="searchPizza" />
+        </section>
 
         <section id="cards_section">
             <article class="card">
                 <figure>
                     <!-- Aqui deberiamos dejar imagenes responsivas de html. -->
-                    <img class="pizzaImage" src="./src/assets/mamita2.jpeg" alt="pizza imagen" width="300"
-                        height="300" />
+                    <img class="pizzaImage" src="./src/assets/mamita2.jpeg" alt="pizza imagen" width="300" height="300" />
                 </figure>
 
                 <section class="card_text">
@@ -66,16 +69,36 @@
             </article>
         </section>
 
+        <section id="cardsFiltered_section">
+        </section>
+
+        <section id="promotion_section">
+
+            <h3>Promociones</h3>
+
+            <article class="card promoCard">
+                <figure>
+                    <img class="pizzaImage promoImg" src="./src/assets/mamita.jpeg" alt="Imagen de Promo" width="300" height="300"/>
+                </figure>
+
+                <p class="title_pizza promotitle">Promocion Tal y Cual</p>
+                <p class="pizzaIngredients"><span class="subra">¿Que Trae?</span> 🌟 Salsa de la casa, jamón ahumado, jamón de pierna, queso mozzarella, cebolla dulce, pimentón y maíz. 🍴
+                </p>
+                <p class="pizzaPrice">Precio: 2<span class="currency">$</span></p>
+
+            </article>
+        </section>
+
         <section id="contactme_whatsapp">
             <h3> Haz click y empieza un chat 🍕</h3>
             <article>
                 <figure>
-                    <a target="_blank" href="//api.whatsapp.com/send?phone=584127061169&text=¡Quiero+Una Pizza.+Por+Favor!">
+                    <a target="_blank" href="//api.whatsapp.com/send?phone=584242709169&text=¡Quiero+Una Pizza.+Por+Favor!">
                         <img id="wsImage" src="./src/assets/ws.svg" alt="Whatsapp" width="100" height="100" />
                     </a>
                 </figure>
-                <a target="_blank" href="//api.whatsapp.com/send?phone=584242709161&text=¡Quiero+Una Pizza.+Por+Favor!">
-                    <p>+58 0424-2709161</p>
+                <a target="_blank" href="//api.whatsapp.com/send?phone=584242709169&text=¡Quiero+Una Pizza.+Por+Favor!"></a>
+                    <p>+58 0424-2709169</p>
                 </a>
                 <p>😎</p>
             </article>
@@ -112,9 +135,7 @@
             </div>
     </footer>
 
-    <script>
-    </script>
-
+    <script src="./app.js"></script>
 
 </body>
 

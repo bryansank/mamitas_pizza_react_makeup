@@ -1,6 +1,7 @@
 #cards_section{
     padding: .5rem;
     margin-top: 1rem;
+    display: block;
 }
 
 .card{
@@ -79,6 +80,19 @@
 /* > 691 */
 @media only screen and (min-width: 691px) {
     #cards_section{
+        display: grid;
+        grid-auto-flow: column;
+    }    
+}
+
+/* Cards With Filtered */
+
+#cardsFiltered_section{
+    padding: .5rem;
+    margin-top: 1rem;
+}
+@media only screen and (min-width: 691px) {
+    #cardsFiltered_section{
         display: grid;
         grid-auto-flow: column;
     }    
