@@ -2,6 +2,9 @@
     padding: 1rem;
     border: 1px solid black;
     margin: 0 1rem;
+
+    opacity: .9;
+    background-color: white;
 }
 #hours_active h3{
     text-align: center;

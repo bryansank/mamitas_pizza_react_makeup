@@ -4,12 +4,17 @@
 }
 
 .card{
-    background-color: #ffe3c038;
+    /* background-color: #ffe3c038; */
+    background-color: #ffffff;
     padding-top: 1rem;
-    max-width: 388px;
-    min-width: 300px;
-    max-height: 450px;
-    min-height: 380px;
+    /* max-width: 388px;
+    min-width: 300px; */
+    max-width: 20rem;
+    min-width: 18rem;
+
+    max-height: 28.1rem;
+    min-height: 23.7rem;
+    
     border: 1px solid #e7e7e7;
     margin: 0 auto;
     box-shadow: 0rem 0.1rem 0.2rem var(--second_color);
@@ -20,7 +25,7 @@
 .card .title_pizza{
     margin-bottom: 1rem;
     font-size: 1.3rem;
-    color: #f39d00;
+    color: #ff8100;
     font-weight: bold;
 }
 
@@ -71,57 +76,10 @@
 }
 
 
-/* 
-.carta{
-    background-color: #e4e4e4;
-    width: 350px;
-    height: 450px;
-    border: 1px solid #c9c9fd;
-    border-radius: 20px;
-    margin: 0 auto;
-    padding: 20px;
-    margin-top: 20px;
-    display: inline-block;
-    margin-right: 10px;
+/* > 691 */
+@media only screen and (min-width: 691px) {
+    #cards_section{
+        display: grid;
+        grid-auto-flow: column;
+    }    
 }
-
-figure{
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-figure img {
-    object-fit: cover;
-    margin: 0 auto;
-    border-radius: 50%;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    width: 300px;
-    height: 250px;
-    border: 1px solid #83b9ff;
-}
-
-.carta p {
-    padding: 5px;
-}
-
-.ingredientes{
-    margin-top: 10px;
-    font-size: 20px;
-    color: #636363;
-    font-weight: 400;
-}
-
-.precio{
-    margin-top: 30px;
-    font-size: 26px;
-    color: black;
-    font-weight: 700;
-}
-
-.moneda{
-    color: #186600;
-    font-weight: bold;
-    font-size: 26px;
-} */
