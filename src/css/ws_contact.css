@@ -1,0 +1,29 @@
+#contactme_whatsapp{
+    padding: 1rem;
+}
+#contactme_whatsapp h3{
+    font-weight: bold;
+    font-size: .8rem;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#contactme_whatsapp article{
+    display: flex;
+    text-align: center;
+    padding: 1rem;
+    flex-flow: row nowrap;
+    padding-bottom: 0;
+    padding-top: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+#contactme_whatsapp article figure{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+#contactme_whatsapp article figure #wsImage{
+    width: 50px;
+    height: 50px;
+}

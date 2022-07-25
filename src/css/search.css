@@ -1,0 +1,13 @@
+#search_section{
+    text-align: center;
+}
+
+#searchPizzaInput{
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 200px;
+    height: 30px;
+    border: 1px solid gray;
+    color: black;
+    text-align: center;
+}

@@ -1,0 +1,12 @@
+*{
+    --primary_color: #FFE1A8;
+    --second_color: #E26D5C;
+    --ter_color: #C9CBA3;
+
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}

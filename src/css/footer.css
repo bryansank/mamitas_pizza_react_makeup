@@ -1,0 +1,29 @@
+@import url(../../global.css);
+
+#footerPage{
+    background-color: var(--ter_color);
+    padding: 20px;
+    margin-top: 40px;
+    color: black;
+    text-align: center;
+}
+
+#footerPage .redes{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footerPage .redes img{
+    width: 40px;
+    height: 40px;
+}
+
+#footerPage .redes a{
+    display: inline-block;
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+}
+
