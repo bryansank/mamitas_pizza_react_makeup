@@ -21,7 +21,7 @@ Tambien, tendremos una seccion para el administrador, el cual estara verificado 
     *   Total a Pagar
 
 ### How to see? 🤖
-![look](https://user-images.githubusercontent.com/52433472/180785497-ae307b05-61dc-4b15-9a99-77a5c254c22b.png)
+![image](https://user-images.githubusercontent.com/52433472/180787209-088feb7f-5512-40f7-894b-097cccc7124e.png)
 
 ### Install this 📋
 
