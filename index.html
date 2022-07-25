@@ -1,105 +1,121 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
-        <link rel="stylesheet" href="./header.css" />
-        <link rel="stylesheet" href="./carta.css" />
-        <link rel="stylesheet" href="./footer.css" />
-        <title>Mamita Pizza</title>
 
-        <style>
-            *{
-                margin: 0;
-                padding: 0;
-            }
-            body{
-                margin: 0;
-                padding: 0;
-            }
-        </style>
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <header id="cabecera">
-            <h1>Mamitas Pizza</h1>
-        </header>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./src/css/header.css" />
+    <link rel="stylesheet" href="./src/css/carta.css" />
+    <link rel="stylesheet" href="./src/css/footer.css" />
+    <link rel="stylesheet" href="./src/css/search.css" />
+    <link rel="stylesheet" href="./src/css/hours.css" />
+    <link rel="stylesheet" href="./src/css/ws_contact.css" />
 
-        <section style="text-align: center;">
+    <title>Mamita Pizza</title>
 
-            <button class="btn_alerta" onclick="mostrarmensaje()">
-                <div class="carta">
-                    <figure>
-                        <img src="./images/pizza1.jpg" alt="pizza imagen" width="300" height="300"/>
-                    </figure>
-                    <p class="ingredientes">Ingredientes: Tomate, cebolla, aji, peperoni.</p>
-                    <p class="precio">Precio: 15<span class="moneda">$</span></p>
-                </div>
-            </button>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700;800&display=swap"
+        rel="stylesheet" />
+</head>
 
-            <button class="btn_alerta" onclick="mostrarmensaje()">
-                <div class="carta">
-                    <figure>
-                        <img src="./images/pizza2.jpg" alt="pizza imagen" width="300" height="300"/>
-                    </figure>
-                    <p class="ingredientes">Ingredientes: Tomate, cebolla, aji, peperoni.</p>
-                    <p class="precio">Precio: 15<span class="moneda">$</span></p>
-                </div>
-            </button>
+<body>
 
-            <button class="btn_alerta" onclick="mostrarmensaje()">
-                <div class="carta">
-                    <figure>
-                        <img src="./images/pizza3.jpg" alt="pizza imagen" width="300" height="300"/>
-                    </figure>
-                    <p class="ingredientes">Ingredientes: Tomate, cebolla, aji, peperoni.</p>
-                    <p class="precio">Precio: 15<span class="moneda">$</span></p>
-                </div>
-            </button>
+    <header id="HeaderPage">
+        <h1>Mamita's Pizza</h1>
+    </header>
 
-            <button class="btn_alerta" onclick="mostrarmensaje()">
-                <div class="carta">
-                    <figure>
-                        <img src="./images/pizza4.jpg" alt="pizza imagen" width="300" height="300"/>
-                    </figure>
-                    <p class="ingredientes">Ingredientes: Tomate, cebolla, aji, peperoni.</p>
-                    <p class="precio">Precio: 15<span class="moneda">$</span></p>
-                </div>
-            </button>
+    <main>
 
-            <button class="btn_alerta" onclick="mostrarmensaje()">
-                <div class="carta">
-                    <figure>
-                        <img src="./images/pizza5.jpg" alt="pizza imagen" width="300" height="300"/>
-                    </figure>
-                    <p class="ingredientes">Ingredientes: Tomate, cebolla, aji, peperoni.</p>
-                    <p class="precio">Precio: 15<span class="moneda">$</span></p>
-                </div>
-            </button>
+        <!-- <h3>Tenemos para ti la mejor pizza italiana. Nada de masa precocida, directamente horneada y con los ingredientes de mejor calidad.</h3> -->
 
+        <section id="cards_section">
+            <article class="card">
+                <figure>
+                    <!-- Aqui deberiamos dejar imagenes responsivas de html. -->
+                    <img class="pizzaImage" src="./src/assets/mamita.jpeg" alt="pizza imagen" width="300"
+                        height="300" />
+                </figure>
+
+                <section class="card_text">
+                    <p class="title_pizza">Mamita pizza individual</p>
+                    <p class="pizzaIngredients"><span class="subra">Ingredientes</span>: Salsa de la casa, jamón ahumado, jamón de pierna, queso mozzarella, cebolla dulce, pimentón y maíz.
+                    </p>
+                    <p class="pizzaPrice">Precio: 2<span class="currency">$</span></p>
+                </section>
+
+            </article>
+
+            <article class="card">
+                <figure>
+                    <!-- Aqui deberiamos dejar imagenes responsivas de html. -->
+                    <img class="pizzaImage" src="./src/assets/mamita.jpeg" alt="pizza imagen" width="300"
+                        height="300" />
+                </figure>
+
+                <section class="card_text">
+                    <p class="title_pizza">Mamita pizza familiar</p>
+                    <p class="pizzaIngredients"><span class="subra">Ingredientes</span>: Salsa de la casa, jamón ahumado, jamón de pierna, queso mozzarella, cebolla dulce, pimentón y maíz.
+                    </p>
+                    <p class="pizzaPrice">Precio: 5<span class="currency">$</span></p>
+                </section>
+
+            </article>
         </section>
 
-        <footer id="footer">
-            <p>Josue Ascanio</p>
-            <p>Fecha de publicacion: 00/00/0000</p>
-            <p>I.U.T Elias Calixto Pompa</p>
-            <div class="redes">
-                <a href="#"><p>
-                    Inicio
-                </p></a>
-                <a href="https://www.instagram.com/ascaniojosue18/" target="_blank">
-                    <img src="./images/instagram.png" alt="instagram" />
+        <section id="contactme_whatsapp">
+            <h3> Haz click y empieza un chat 🍕</h3>
+            <article>
+                <figure>
+                    <a target="_blank" href="//api.whatsapp.com/send?phone=584127061169&text=¡Quiero+Una Pizza.+Por+Favor!">
+                        <img id="wsImage" src="./src/assets/ws.svg" alt="Whatsapp" width="100" height="100" />
+                    </a>
+                </figure>
+                <a target="_blank" href="//api.whatsapp.com/send?phone=584127061169&text=¡Quiero+Una Pizza.+Por+Favor!">
+                    <p>+58 412-7061169</p>
                 </a>
-                <a href="https://www.facebook.com/josuemiguel.ascanio" target="_blank">
-                    <img src="./images/facebook.png" alt="facebook" />
-                </a>
-            </div>
-        </footer>
+                <p>😎</p>
+            </article>
+        </section>
 
-        <script>
-            function mostrarmensaje(){
-                alert('Hola querido cliente, usted a elegido una pizza.');
-            }
-        </script>
-    </body>
+        <section id="hours_active">
+            <h3>
+                ¡Estamos disponibles!
+            </h3>
+            <h4>Guarenas - Menca</h4>
+            <article>
+                <figure>
+                    <img id="calendarImage" src="./src/assets/calendar.svg" alt="calendario" width="100" height="100" />
+                </figure>
+                <p>Lunes / Viernes</p>
+                <p>7:00pm / 12:00pm</p>
+            </article>
+        </section>
+    </main>
+
+    <footer id="footerPage">
+        <section class="redes">
+            <a href="#">
+                <p>
+                    Inicio
+                </p>
+            </a>
+            <a href="https://www.instagram.com/bryansank/" target="_blank">
+                <img src="./src/assets/instagram.png" alt="instagram" />
+            </a>
+            <a href="https://www.facebook.com/BryannKey" target="_blank">
+                <img src="./src/assets/facebook.png" alt="facebook" />
+            </a>
+            </div>
+    </footer>
+
+    <script>
+    </script>
+
+
+</body>
+
 </html>
